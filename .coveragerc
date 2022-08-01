@@ -1,0 +1,19 @@
+[paths]
+source =
+    auth0_api_client/*
+
+[report]
+exclude_lines =
+  app.config
+
+omit =
+  */__init__.py
+  */__main__.py
+  auth0_api_client/config.py
+  auth0_api_client/errors.py
+  auth0_api_client/auth0_logging.py
+
+fail_under = 90
+
+show_missing = true
+skip_covered = true

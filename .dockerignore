@@ -1,0 +1,8 @@
+.circleci
+.common
+integration-tests
+tests
+.tox
+.pytest_cache
+.mypy_cache
+coverage-reports
