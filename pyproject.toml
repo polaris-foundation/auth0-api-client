@@ -7,7 +7,7 @@ keywords = ["Polaris", "Auth0", "API", "Management"]
 repository = "https://github.com/polaris-foundation/auth0-api-client"
 
 [tool.poetry.dependencies]
-python = "3.9"
+python = "^3.8"
 environs = "9.*"
 requests = "2.*"
 she-logging = "1.*"
